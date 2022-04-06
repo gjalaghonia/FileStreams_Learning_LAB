@@ -20,11 +20,11 @@ namespace file
 
             while (readtext.Length > 0)
             {
-                Console.WriteLine(readtext[0] + "===");
+                Console.WriteLine(readtext[0] + "--");
                 int temcount = 0;
                 for (int i = 0; i < readtext.Length; i++)
                 {
-                    if (readtext[0] == readtext[i] && arrayList.Contains(readtext[0]))
+                    if (readtext[0] == readtext[i] && arrayList.Contains(readtext[0]))//
                     {
                         temcount++;
                     }
