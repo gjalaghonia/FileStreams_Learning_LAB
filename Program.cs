@@ -20,7 +20,7 @@ namespace file
 
             while (readtext.Length > 0)
             {
-                Console.WriteLine(readtext[0] + "-----"); // charebis 1 elementi: ASCI
+                Console.WriteLine(readtext[0] + "-----");
                 int temcount = 0;
                 for (int i = 0; i < readtext.Length; i++)
                 {
